@@ -8,14 +8,11 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < i; j++)
+        char ch = 'A';
+        for (int j = 0; j <= i; j++)
         {
-            cout << " ";
-        }
-
-        for (int j = 0; j < (n - i); j++)
-        {
-            cout << i + 1;
+            cout << ch << " ";
+            ch += 1;
         }
         cout << endl;
     }
